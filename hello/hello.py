@@ -1,17 +1,11 @@
 name="bob"
 name1="cole"
-
-'for'   in range(1000000)
-print(f"hello everybody {i}")    
-    
-    
     
 name="mom"
-name1="chips"
-print(f"hello everbody {i} ") 
+name1="chips" 
 i=1
-for {i} in range (100000):
- print(f"hello everybody {i}")  
+for i in range(100000):
+    print(f"hello everybody {i}")  
 i= 4
 while ( i < 5):
     print(f"While loop iteration {i}")
@@ -24,4 +18,4 @@ b=100
 name = input("Enter your name: ")
 print(f"Hello, World {name}!")
 
-print(f"Sum of {a} and {b} is {a * b}")
+print(f"Sum of {a} and {b} is {a * b}"
