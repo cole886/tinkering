@@ -1,7 +1,7 @@
 name="bob"
 name1="cole"
 
-for i in range(1000000):
+'for'   in range(1000000)
 print(f"hello everybody {i}")    
     
     
@@ -9,10 +9,9 @@ print(f"hello everybody {i}")
 name="mom"
 name1="chips"
 print(f"hello everbody {i} ") 
-
-for i in range(1000000):
- print(f"cole is the best {i}") 
-    
+i=1
+for {i} in range (100000):
+ print(f"hello everybody {i}")  
 i= 4
 while ( i < 5):
     print(f"While loop iteration {i}")
