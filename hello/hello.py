@@ -14,8 +14,18 @@ while ( i < 5):
 a=10 
 b=100
 
+while i in range(100000):
+    print(f"cole is the best {i}")
+    i += 1
+
+name = input("enter your name: ")
+print (f"hello world {name}")
+
+
+
+
 
 name = input("Enter your name: ")
 print(f"Hello, World {name}!")
 
-print(f"Sum of {a} and {b} is {a * b}"
+print(f"Sum of {a} and {b} is {a * b}")
