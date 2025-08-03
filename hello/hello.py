@@ -1,8 +1,11 @@
-name="bob"
-name1="cole"
-    
-name="mom"
-name1="chips" 
+
+i=1
+for i in range(100000000):
+    name="mom"
+    name1=
+    print(f"{name} ate {name1}")
+
+
 i=1
 for i in range(100000):
     print(f"hello everybody {i}")  
@@ -29,3 +32,10 @@ name = input("Enter your name: ")
 print(f"Hello, World {name}!")
 
 print(f"Sum of {a} and {b} is {a * b}")
+
+
+
+
+
+name = input('enter your name: ')
+print (f'hello world {name}')

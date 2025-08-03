@@ -1,15 +1,30 @@
 
-def f(qty,item,price):
-    qty=6
-    item="banana"
-    price=1.74
-    print( f' {qty} {item} cost ${price}')
-    
-    
-def add(a,b):
-    return a+b
+def multpli(a,b,c,d,e):
+    return a*b*c*d*e
 
-a=10
-b=20
-print(f"sum of a={a} + b={b} is  {add(a,b)}")
+def add(a,b,c,d,e):
+    return a + b + c + d + e
 
+def sub(a,b,c,d,e):
+    return a - b - c - d - e
+
+def divide(a,b,c,d,e):
+    return a/b/c/d/e
+
+while True:
+    try:
+        a = float(input("Enter a number: "))
+        b = float(input("Enter another number: "))
+        c = float(input("Enter a third number: "))
+        d = float(input("Enter a fourth number: "))
+        e = float(input("Enter a fifth number: "))
+        break
+
+    except ValueError:
+        print("Please enter valid integers.")
+
+
+print(f" a={a} * b={b} *c={c} *d={d} *e={e} is  {multpli(a,b,c,d,e)}")
+print(f" a={a} / b={b} /c={c} /d={d} /e={e} is  {divide(a,b,c,d,e)}")
+print(f" a={a} + b={b} +c={c} +d={d} +e={e} is {add(a,b,c,d,e)}")
+print(f" a={a} - b={b} -c={c} -d={d} -e={e} is {sub(a,b,c,d,e)}")                                 ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
